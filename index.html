@@ -56,23 +56,14 @@
 
     /* Header */
     .site-header { position: sticky; z-index: 30; top: 0; color: var(--cream); background: var(--ink); }
-    .nav-row { position: relative; display: flex; min-height: var(--nav-height); align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid #494a43; }
-    .wordmark { display: inline-flex; flex-direction: column; align-items: center; gap: 0; color: var(--cream); text-decoration: none; }
+    .nav-row { display: flex; min-height: var(--nav-height); align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid #494a43; }
+    .wordmark { display: inline-flex; flex: 0 0 auto; flex-direction: column; align-items: center; gap: 0; color: var(--cream); text-decoration: none; }
     .wordmark-main { font: 400 31px/1 var(--serif); letter-spacing: .015em; }
     .wordmark-sub { margin-top: 5px; font-size: 9px; letter-spacing: .12em; }
-    .nav-links { display: flex; align-items: center; gap: clamp(20px, 3vw, 40px); }
-    .nav-links a { color: var(--cream); font-size: 13px; text-decoration: none; transition: color .18s; }
+    .nav-links { display: flex; min-width: 0; align-items: center; justify-content: flex-end; gap: clamp(16px, 2.5vw, 34px); margin-left: auto; overflow-x: auto; scrollbar-width: none; white-space: nowrap; }
+    .nav-links::-webkit-scrollbar { display: none; }
+    .nav-links a { display: inline-flex; min-height: 44px; flex: 0 0 auto; align-items: center; color: var(--cream); font-size: 13px; text-decoration: none; transition: color .18s; }
     .nav-links a:hover, .nav-links a[aria-current="location"] { color: var(--gold); }
-    .nav-links .mobile-only { display: none; }
-    .nav-controls { display: flex; flex: 0 0 auto; align-items: center; gap: 14px; }
-    .order-button { display: inline-flex; min-height: 43px; align-items: center; justify-content: center; padding: 0 18px; border: 1px solid var(--gold); color: var(--body); background: var(--gold); font-size: 12px; font-weight: 600; letter-spacing: .02em; }
-    .order-button:disabled, .cart-button:disabled { opacity: .56; cursor: not-allowed; }
-    .cart-button { position: relative; display: grid; width: 44px; height: 43px; place-items: center; border: 1px solid #494a43; color: var(--cream); background: transparent; }
-    .cart-button svg { width: 20px; height: 20px; }
-    .cart-count { position: absolute; top: -6px; right: -6px; display: grid; min-width: 18px; height: 18px; place-items: center; padding-inline: 4px; border-radius: 999px; color: var(--body); background: var(--gold); font-size: 10px; font-weight: 700; line-height: 1; }
-    .menu-toggle { display: none; width: 44px; height: 43px; align-items: center; justify-content: center; border: 1px solid #494a43; color: var(--cream); background: transparent; cursor: pointer; }
-    .menu-toggle svg { width: 22px; height: 22px; }
-    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; clip-path: inset(50%); border: 0; }
     .site-header a:focus-visible, .site-header button:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
 
     /* Hero */
@@ -228,7 +219,7 @@
     @media (max-width: 1100px) {
       :root { --nav-height: 88px; }
       .container { width: calc(100% - 96px); }
-      .nav-links { gap: 22px; }
+      .nav-links { gap: 20px; }
       .hero-main { min-height: 590px; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 30px; }
       .hero h1 { font-size: clamp(54px, 6.2vw, 68px); }
       .hero-photo { height: 470px; }
@@ -245,13 +236,8 @@
       .nav-row { min-height: var(--nav-height); }
       .wordmark-main { font-size: 25px; }
       .wordmark-sub { font-size: 8px; }
-      .menu-toggle { display: inline-flex; }
-      .nav-links { position: absolute; top: var(--nav-height); right: 0; left: 0; display: none; align-items: stretch; gap: 0; padding: 8px max(20px, calc((100vw - 770px)/2)) 20px; border-bottom: 1px solid #494a43; background: var(--ink); box-shadow: 0 16px 24px rgba(0,0,0,.18); }
-      .nav-links.is-open { display: flex; flex-direction: column; }
-      .nav-links a { padding: 15px 2px; border-bottom: 1px solid rgba(244,240,231,.12); font-size: 13px; }
-      .nav-links .mobile-only { display: inline-flex; }
-      .nav-controls { gap: 9px; }
-      .order-button { display: none; }
+      .nav-row { gap: 16px; }
+      .nav-links { justify-content: flex-start; gap: clamp(14px, 3vw, 22px); }
       .hero-main { min-height: initial; grid-template-columns: 1fr; gap: 36px; padding-block: 50px 38px; }
       .hero-copy { gap: 20px; }
       .hero h1 { max-width: 530px; font-size: clamp(52px, 11vw, 72px); }
@@ -330,7 +316,7 @@
     }
     @media (max-width: 720px) {
       .container { width: calc(100% - 40px); }
-      .nav-links { padding-inline: 20px; }
+      .nav-links { gap: 14px; }
     }
     @media (max-width: 390px) {
       .container { width: calc(100% - 32px); }
@@ -356,23 +342,11 @@
         <span class="wordmark-sub">COFFEE HOUSE</span>
       </a>
       <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
+        <a href="#home">Home</a>
         <a href="#the-coffee">Menu</a>
         <a href="#our-place">Our Story</a>
         <a href="#visit">Visit Us</a>
-        <a class="mobile-only" href="#contact">Contact</a>
-        <a class="mobile-only" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
       </nav>
-      <div class="nav-controls">
-        <button class="order-button" type="button" disabled aria-describedby="ordering-unavailable">Order Now</button>
-        <button class="cart-button" type="button" disabled aria-label="Cart, 0 items" aria-describedby="ordering-unavailable" title="Ordering is not available yet">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h7.9a2 2 0 0 0 1.9-1.4L21 9H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>
-          <span class="cart-count" aria-hidden="true">0</span>
-        </button>
-        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-        </button>
-      </div>
-      <span class="sr-only" id="ordering-unavailable">Ordering is not available yet.</span>
     </div>
   </header>
   <div class="dark">
@@ -717,11 +691,8 @@
 
   <script>
     (() => {
-      const menuToggle = document.querySelector(".menu-toggle");
-      const navigation = document.querySelector(".nav-links");
       const navLinks = [...document.querySelectorAll('.nav-links a[href^="#"]')];
       const sections = [...document.querySelectorAll("main section[id]")];
-      const mobileQuery = window.matchMedia("(max-width: 850px)");
       const menuVersionButtons = [...document.querySelectorAll("[data-menu-version]")];
       const menuPanels = [...document.querySelectorAll(".menu-version")];
 
@@ -743,25 +714,6 @@
         const categoryButtons = [...panel.querySelectorAll("[data-menu-category]")];
         categoryButtons.forEach(button => button.addEventListener("click", () => activateMenuCategory(panel, button)));
         if (categoryButtons.length) activateMenuCategory(panel, categoryButtons[0]);
-      });
-
-      const closeMenu = () => {
-        navigation.classList.remove("is-open");
-        menuToggle.setAttribute("aria-expanded", "false");
-        menuToggle.setAttribute("aria-label", "Open navigation menu");
-      };
-
-      menuToggle.addEventListener("click", () => {
-        const open = menuToggle.getAttribute("aria-expanded") === "true";
-        navigation.classList.toggle("is-open", !open);
-        menuToggle.setAttribute("aria-expanded", String(!open));
-        menuToggle.setAttribute("aria-label", open ? "Open navigation menu" : "Close navigation menu");
-      });
-      navigation.querySelectorAll("a").forEach(link => link.addEventListener("click", closeMenu));
-      mobileQuery.addEventListener("change", event => { if (!event.matches) closeMenu(); });
-      document.addEventListener("click", event => {
-        if (menuToggle.getAttribute("aria-expanded") === "true" &&
-            !navigation.contains(event.target) && !menuToggle.contains(event.target)) closeMenu();
       });
 
       if ("IntersectionObserver" in window) {
@@ -905,9 +857,6 @@
       document.addEventListener("keydown", event => {
         if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
           closeLightbox();
-        } else if (event.key === "Escape" && menuToggle.getAttribute("aria-expanded") === "true") {
-          closeMenu();
-          menuToggle.focus();
         } else if (event.key === "Tab" && lightbox.classList.contains("is-open")) {
           event.preventDefault();
           lightboxClose.focus();

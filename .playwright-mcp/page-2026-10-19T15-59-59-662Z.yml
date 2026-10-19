@@ -1,0 +1,84 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Majestic Coffee House home" [ref=e5] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e6]: MAJESTIC
+        - generic [ref=e7]: COFFEE HOUSE
+      - navigation "Main navigation" [ref=e8]:
+        - link "Menu" [ref=e9] [cursor=pointer]:
+          - /url: "#the-coffee"
+        - link "Our Story" [ref=e10] [cursor=pointer]:
+          - /url: "#our-place"
+        - link "Visit Us" [ref=e11] [cursor=pointer]:
+          - /url: "#visit"
+        - link "Contact" [ref=e70] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Instagram" [ref=e71] [cursor=pointer]:
+          - /url: https://www.instagram.com/
+      - generic [ref=e12]:
+        - button "Cart, 0 items" [disabled] [ref=e14]:
+          - generic [aria-hidden] [ref=e19]: "0"
+        - button "Close navigation menu" [expanded] [active] [ref=e72] [cursor=pointer]
+      - generic [ref=e20]: Ordering is not available yet.
+  - region [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: YOUR LITTLE PAUSE IN VALSAD
+        - heading "A good cup. A little pause. A majestic day." [level=1] [ref=e75]: A good cup.A little pause.A majestic day.
+        - paragraph [ref=e76]: Step off Tithal Road and into a warmer rhythm. Coffee, conversation, and a corner to call your own.
+        - generic [ref=e77]:
+          - link "Come on in" [ref=e78] [cursor=pointer]:
+            - /url: "#the-coffee"
+          - link "Tithal Road, Valsad" [ref=e79] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Majestic+Coffee+House%2C+Pali+Heights%2C+Valsad%2C+Gujarat
+      - figure "A LITTLE CUP OF MAJESTIC" [ref=e80]:
+        - img "Majestic's mustard-yellow coffee mug on the café counter" [ref=e81]
+    - generic [ref=e83]:
+      - generic [ref=e84]: COFFEE / CONVERSATION / A CHANGE OF PACE
+      - link "Make yourself at home" [ref=e85] [cursor=pointer]:
+        - /url: "#our-place"
+  - main [ref=e27]:
+    - region "Big on character. Easy to feel at home." [ref=e28]:
+      - separator [ref=e30]
+    - region "What’s your coffee mood?" [ref=e31]
+    - region "A little Paris. A lot of Valsad." [ref=e32]:
+      - generic [ref=e35]:
+        - generic [ref=e36]: WARM WOOD. OLD-WORLD WALLS. GOOD COMPANY.
+        - generic [ref=e37]: Inside MAJESTIC COFFEE HOUSE
+    - region "Find your favourite corner." [ref=e38]
+    - region "Not polished perfect. Perfectly Majestic." [ref=e40]
+    - complementary "An invitation to visit" [ref=e41]:
+      - generic [ref=e42]:
+        - heading "Bring a friend. Leave the rush outside." [level=2] [ref=e43]
+        - paragraph [ref=e44]: No grand occasion needed. Just a little time, a little company, and a coffee-house state of mind.
+    - region "Your next pause, right this way." [ref=e45]
+  - contentinfo [ref=e46]:
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - paragraph [ref=e49]: Coffee. Company. Majestic.
+        - navigation "Footer navigation" [ref=e50]:
+          - link "Our place" [ref=e51] [cursor=pointer]:
+            - /url: "#our-place"
+          - link "The coffee" [ref=e52] [cursor=pointer]:
+            - /url: "#the-coffee"
+          - link "The atmosphere" [ref=e53] [cursor=pointer]:
+            - /url: "#atmosphere"
+          - link "Visit us" [ref=e54] [cursor=pointer]:
+            - /url: "#visit"
+          - link "Back to top" [ref=e55] [cursor=pointer]:
+            - /url: "#home"
+      - separator [ref=e56]
+      - generic [ref=e57]:
+        - paragraph [ref=e58]: MAJESTIC
+        - generic [ref=e59]:
+          - strong [ref=e60]: COFFEE HOUSE
+          - generic [ref=e61]: VALSAD, GUJARAT
+      - generic [ref=e62]:
+        - generic [ref=e63]: © 2026 Majestic Coffee House
+        - link "Instagram profile link to be updated" [ref=e64] [cursor=pointer]:
+          - /url: https://www.instagram.com/
+          - text: Instagram
+        - generic [ref=e69]: Made for a slower kind of day.

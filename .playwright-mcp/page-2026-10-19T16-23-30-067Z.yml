@@ -1,0 +1,173 @@
+- generic [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "Majestic Coffee House home" [ref=f1e5] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=f1e6]: MAJESTIC
+        - generic [ref=f1e7]: COFFEE HOUSE
+      - navigation "Main navigation" [ref=f1e8]:
+        - link "Menu" [ref=f1e9] [cursor=pointer]:
+          - /url: "#the-coffee"
+        - link "Our Story" [ref=f1e10] [cursor=pointer]:
+          - /url: "#our-place"
+        - link "Visit Us" [ref=f1e11] [cursor=pointer]:
+          - /url: "#visit"
+      - generic [ref=f1e12]:
+        - button "Order Now" [disabled] [ref=f1e13]
+        - button "Cart, 0 items" [disabled] [ref=f1e14]:
+          - generic [aria-hidden] [ref=f1e19]: "0"
+      - generic [ref=f1e20]: Ordering is not available yet.
+  - region [ref=f1e23]:
+    - generic [ref=f1e24]:
+      - generic [ref=f1e25]:
+        - paragraph [ref=f1e170]: YOUR LITTLE PAUSE IN VALSAD
+        - heading "A good cup. A little pause. A majestic day." [level=1] [ref=f1e171]: A good cup.A little pause.A majestic day.
+        - paragraph [ref=f1e172]: Step off Tithal Road and into a warmer rhythm. Coffee, conversation, and a corner to call your own.
+        - generic [ref=f1e173]:
+          - link "Come on in" [ref=f1e174] [cursor=pointer]:
+            - /url: "#the-coffee"
+          - link "Tithal Road, Valsad" [ref=f1e175] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Majestic+Coffee+House%2C+Pali+Heights%2C+Valsad%2C+Gujarat
+      - figure "A LITTLE CUP OF MAJESTIC" [ref=f1e176]:
+        - img "Majestic's mustard-yellow coffee mug on the café counter" [ref=f1e177]
+    - generic [ref=f1e179]:
+      - generic [ref=f1e180]: COFFEE / CONVERSATION / A CHANGE OF PACE
+      - link "Make yourself at home" [ref=f1e181] [cursor=pointer]:
+        - /url: "#our-place"
+  - main [ref=f1e26]:
+    - region [ref=f1e27]:
+      - generic [ref=f1e28]:
+        - complementary [ref=f1e182]:
+          - paragraph [ref=f1e183]: 01 / HELLO, NEIGHBOUR
+          - paragraph [ref=f1e184]: Pali Heights, Tithal Road.A little corner of Valsad.
+        - generic [ref=f1e185]:
+          - heading "Big on character. Easy to feel at home." [level=2] [ref=f1e186]: Big on character.Easy to feel at home.
+          - generic [ref=f1e187]:
+            - paragraph [ref=f1e188]: Welcome to MAJESTIC COFFEE HOUSE. A neighbourhood spot for catching up, slowing down, and letting a coffee break become the best part of your day.
+            - paragraph [ref=f1e189]: Warm wood meets black metal. Paris-inspired walls meet familiar company. Find a seat, bring a friend, and stay for a conversation.
+      - separator [ref=f1e29]
+    - region [ref=f1e30]:
+      - generic [ref=f1e190]:
+        - complementary [ref=f1e191]:
+          - paragraph [ref=f1e192]: 02 / THE COFFEE MENU
+          - paragraph [ref=f1e193]: Made for slow sipsand good company.
+        - generic [ref=f1e194]:
+          - heading "Find your coffee mood." [level=2] [ref=f1e195]: Find yourcoffee mood.
+          - paragraph [ref=f1e196]: From a short, bold espresso to a slow-brewed favourite. Take a look, then settle into your next cup.
+      - group "Choose a menu" [ref=f1e31]:
+        - button "Menu 1" [ref=f1e32] [cursor=pointer]
+        - button "Menu 2" [active] [pressed] [ref=f1e33] [cursor=pointer]
+      - region [ref=f1e250]:
+        - generic [ref=f1e251]:
+          - heading "Menu 2" [level=3] [ref=f1e252]
+          - paragraph [ref=f1e253]: MAJESTIC COFFEE HOUSE / MENU 02
+        - group "Menu 2 categories" [ref=f1e254]:
+          - button "Hot Coffee" [pressed] [ref=f1e255] [cursor=pointer]
+          - button "Iced Coffee" [ref=f1e256] [cursor=pointer]
+          - button "Signatures" [ref=f1e257] [cursor=pointer]
+          - button "Manual Brew" [ref=f1e258] [cursor=pointer]
+          - button "Best with Coffee" [ref=f1e259] [cursor=pointer]
+          - button "Add-ons" [ref=f1e260] [cursor=pointer]
+        - region [ref=f1e261]:
+          - heading "HOT MAJESTIC COFFEE" [level=4] [ref=f1e262]
+          - list [ref=f1e263]:
+            - listitem [ref=f1e264]:
+              - generic [ref=f1e265]:
+                - generic [ref=f1e266]: Espresso
+                - generic [ref=f1e267]: 30 ml shot
+              - generic [ref=f1e268]: ₹100
+            - listitem [ref=f1e269]:
+              - generic [ref=f1e270]:
+                - generic [ref=f1e271]: Americano
+                - generic [ref=f1e272]: Espresso · hot water
+              - generic [ref=f1e273]: ₹120
+            - listitem [ref=f1e274]:
+              - generic [ref=f1e275]:
+                - generic [ref=f1e276]: Romano
+                - generic [ref=f1e277]: Espresso · hot water · lemon
+              - generic [ref=f1e278]: ₹130
+            - listitem [ref=f1e279]:
+              - generic [ref=f1e280]:
+                - generic [ref=f1e281]: Macchiato
+                - generic [ref=f1e282]: Espresso · foam milk
+              - generic [ref=f1e283]: ₹140
+            - listitem [ref=f1e284]:
+              - generic [ref=f1e285]:
+                - generic [ref=f1e286]: Cappuccino
+                - generic [ref=f1e287]: Espresso · steam milk · foam milk
+              - generic [ref=f1e288]: ₹140
+            - listitem [ref=f1e289]:
+              - generic [ref=f1e290]:
+                - generic [ref=f1e291]: Flat White
+                - generic [ref=f1e292]: Espresso · steam milk · thin foam milk
+              - generic [ref=f1e293]: ₹140
+            - listitem [ref=f1e294]:
+              - generic [ref=f1e295]:
+                - generic [ref=f1e296]: Marocchino
+                - generic [ref=f1e297]: Espresso · steam milk · foam milk · cocoa powder
+              - generic [ref=f1e298]: ₹150
+            - listitem [ref=f1e299]:
+              - generic [ref=f1e300]:
+                - generic [ref=f1e301]: Mocha
+                - generic [ref=f1e302]: Espresso · chocolate · steam milk · foam milk
+              - generic [ref=f1e303]: ₹160
+            - listitem [ref=f1e304]:
+              - generic [ref=f1e305]:
+                - generic [ref=f1e306]: Latte
+                - generic [ref=f1e307]: Espresso · steam milk · foam milk
+              - generic [ref=f1e308]: ₹160
+            - listitem [ref=f1e309]:
+              - generic [ref=f1e310]:
+                - generic [ref=f1e311]: Café Con Miel
+                - generic [ref=f1e312]: Espresso · honey · cinnamon · steam milk
+              - generic [ref=f1e313]: ₹170
+            - listitem [ref=f1e314]:
+              - generic [ref=f1e315]:
+                - generic [ref=f1e316]: Pumpkin Spice
+                - generic [ref=f1e317]: Espresso · honey · pumpkin spice · steam milk
+              - generic [ref=f1e318]: ₹170
+            - listitem [ref=f1e319]:
+              - generic [ref=f1e320]:
+                - generic [ref=f1e321]: Mocha Caramel
+                - generic [ref=f1e322]: Espresso · caramel · steam milk · foam milk
+              - generic [ref=f1e323]: ₹180
+    - region "A little Paris. A lot of Valsad." [ref=f1e132]:
+      - generic [ref=f1e135]:
+        - generic [ref=f1e136]: WARM WOOD. OLD-WORLD WALLS. GOOD COMPANY.
+        - generic [ref=f1e137]: Inside MAJESTIC COFFEE HOUSE
+    - region "Find your favourite corner." [ref=f1e138]
+    - region "Not polished perfect. Perfectly Majestic." [ref=f1e140]
+    - complementary "An invitation to visit" [ref=f1e141]:
+      - generic [ref=f1e142]:
+        - heading "Bring a friend. Leave the rush outside." [level=2] [ref=f1e143]
+        - paragraph [ref=f1e144]: No grand occasion needed. Just a little time, a little company, and a coffee-house state of mind.
+    - region "Your next pause, right this way." [ref=f1e145]
+  - contentinfo [ref=f1e146]:
+    - generic [ref=f1e147]:
+      - generic [ref=f1e148]:
+        - paragraph [ref=f1e149]: Coffee. Company. Majestic.
+        - navigation "Footer navigation" [ref=f1e150]:
+          - link "Our place" [ref=f1e151] [cursor=pointer]:
+            - /url: "#our-place"
+          - link "The coffee" [ref=f1e152] [cursor=pointer]:
+            - /url: "#the-coffee"
+          - link "The atmosphere" [ref=f1e153] [cursor=pointer]:
+            - /url: "#atmosphere"
+          - link "Visit us" [ref=f1e154] [cursor=pointer]:
+            - /url: "#visit"
+          - link "Back to top" [ref=f1e155] [cursor=pointer]:
+            - /url: "#home"
+      - separator [ref=f1e156]
+      - generic [ref=f1e157]:
+        - paragraph [ref=f1e158]: MAJESTIC
+        - generic [ref=f1e159]:
+          - strong [ref=f1e160]: COFFEE HOUSE
+          - generic [ref=f1e161]: VALSAD, GUJARAT
+      - generic [ref=f1e162]:
+        - generic [ref=f1e163]: © 2026 Majestic Coffee House
+        - link "Instagram profile link to be updated" [ref=f1e164] [cursor=pointer]:
+          - /url: https://www.instagram.com/
+          - text: Instagram
+        - generic [ref=f1e169]: Made for a slower kind of day.

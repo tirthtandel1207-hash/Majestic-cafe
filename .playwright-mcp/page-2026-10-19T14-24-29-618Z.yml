@@ -1,0 +1,277 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Majestic Coffee House home" [ref=e5] [cursor=pointer]:
+        - /url: "#home"
+        - generic [aria-hidden] [ref=e6]: M
+        - generic [ref=e7]:
+          - generic [ref=e8]: Majestic Coffee House
+          - generic [ref=e9]: Valsad · Since always
+      - navigation "Main navigation" [ref=e10]:
+        - link "Home" [ref=e11] [cursor=pointer]:
+          - /url: "#home"
+        - link "About" [ref=e12] [cursor=pointer]:
+          - /url: "#about"
+        - link "Menu" [ref=e13] [cursor=pointer]:
+          - /url: "#menu"
+        - link "Gallery" [ref=e14] [cursor=pointer]:
+          - /url: "#gallery"
+        - link "Visit Us" [ref=e15] [cursor=pointer]:
+          - /url: "#visit"
+        - link "Find Us" [ref=e16] [cursor=pointer]:
+          - /url: "#visit"
+          - text: Find Us
+          - generic [aria-hidden] [ref=e17]: ↗
+  - main [ref=e18]:
+    - region [ref=e19]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: Your little coffee corner in Valsad
+        - heading "Coffee is always a good idea." [level=1] [ref=e23]:
+          - text: Coffee is
+          - generic [ref=e24]: always a good idea.
+        - paragraph [ref=e25]: Good coffee, warm corners, and a little time just for you. Come in, find your seat, and let the day slow down.
+        - generic [ref=e26]:
+          - link "View the menu" [ref=e27] [cursor=pointer]:
+            - /url: "#menu"
+            - text: View the menu
+            - generic [aria-hidden] [ref=e28]: ↓
+          - link "Get directions" [ref=e29] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Majestic+Coffee+House%2C+Pali+Heights%2C+Valsad%2C+Gujarat
+            - text: Get directions
+            - generic [aria-hidden] [ref=e30]: ↗
+      - generic [aria-hidden] [ref=e31]: More coffee, less compliments.
+    - region [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: A little about us
+          - heading "A corner made for the love of coffee." [level=2] [ref=e36]: A corner made forthe love of coffee.
+          - paragraph [ref=e37]: Tucked into Valsad, Majestic is the kind of place you come for a quick coffee and somehow stay all afternoon. Think warm wood, good people, and cups made with care.
+          - paragraph [ref=e38]: No rush. Your coffee's not going anywhere.
+          - list [ref=e39]:
+            - listitem [ref=e40]: Freshly ground beans
+            - listitem [ref=e44]: Pour-over & slow brews
+            - listitem [ref=e47]: Siphon & moka pot
+            - listitem [ref=e50]: Easy self-service counter
+        - generic [ref=e53]:
+          - img "A warm coffee setup with cups and freshly brewed coffee" [ref=e54]
+          - generic [ref=e55]: A little cup of happy.
+    - img "A subtle painted brick wall divider" [ref=e56]:
+      - generic [ref=e57]: Coffee tastes better together
+    - region [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: A little something special
+            - heading "Majestic specials." [level=2] [ref=e63]
+          - paragraph [ref=e64]: A few house favourites, made for slow sips and sunny afternoons. All yours for ₹130.
+        - generic [ref=e65]:
+          - article [ref=e66]:
+            - img "Iced latte in a clear glass" [ref=e67]
+            - generic [ref=e68]:
+              - generic [ref=e69]: Cool & floral
+              - heading "Iced Rose Latte" [level=3] [ref=e70]
+              - paragraph [ref=e71]: Espresso, milk, and a little rose-daydream.
+              - generic [ref=e72]: ₹130
+          - article [ref=e73]:
+            - img "Iced coffee topped with creamy foam" [ref=e74]
+            - generic [ref=e75]:
+              - generic [ref=e76]: Golden hour in a glass
+              - heading "Iced Saffron Latte" [level=3] [ref=e77]
+              - paragraph [ref=e78]: Silky, chilled, with a hint of saffron warmth.
+              - generic [ref=e79]: ₹130
+          - article [ref=e80]:
+            - img "Rich hot chocolate in a ceramic cup" [ref=e81]
+            - generic [ref=e82]:
+              - generic [ref=e83]: A warm hug
+              - heading "Hot Chocolate" [level=3] [ref=e84]
+              - paragraph [ref=e85]: Deep cocoa. Soft foam. Zero bad days.
+              - generic [ref=e86]: ₹130
+    - region [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]: Made with love, served with a smile
+            - heading "The coffee menu." [level=2] [ref=e92]
+          - paragraph [ref=e93]: Keep it classic or try something new. The only difficult choice is what to sip first.
+        - generic [ref=e94]:
+          - heading "A little something for every mood" [level=3] [ref=e95]
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - heading "Hot Coffee" [level=3] [ref=e98]
+              - paragraph [ref=e101]:
+                - generic [ref=e102]: Espresso
+                - generic [ref=e103]: ₹90
+              - paragraph [ref=e104]:
+                - generic [ref=e105]: Americano
+                - generic [ref=e106]: ₹110
+              - paragraph [ref=e107]:
+                - generic [ref=e108]: Cappuccino
+                - generic [ref=e109]: ₹130
+              - paragraph [ref=e110]:
+                - generic [ref=e111]: Latte
+                - generic [ref=e112]: ₹130
+              - paragraph [ref=e113]:
+                - generic [ref=e114]: Flat White
+                - generic [ref=e115]: ₹140
+              - paragraph [ref=e116]:
+                - generic [ref=e117]: Mocha
+                - generic [ref=e118]: ₹150
+              - paragraph [ref=e119]:
+                - generic [ref=e120]: Macchiato
+                - generic [ref=e121]: ₹110
+              - paragraph [ref=e122]:
+                - generic [ref=e123]: Cortado
+                - generic [ref=e124]: ₹120
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - heading "Cold Coffee" [level=3] [ref=e127]
+                - paragraph [ref=e130]:
+                  - generic [ref=e131]: Iced Americano
+                  - generic [ref=e132]: ₹120
+                - paragraph [ref=e133]:
+                  - generic [ref=e134]: Iced Latte
+                  - generic [ref=e135]: ₹140
+                - paragraph [ref=e136]:
+                  - generic [ref=e137]: Cold Coffee
+                  - generic [ref=e138]: ₹150
+                - paragraph [ref=e139]:
+                  - generic [ref=e140]: Rose / Saffron Latte
+                  - generic [ref=e141]: ₹130
+              - generic [ref=e142]:
+                - heading "Hot Chocolate" [level=3] [ref=e143]
+                - paragraph [ref=e146]:
+                  - generic [ref=e147]: Classic Hot Chocolate
+                  - generic [ref=e148]: ₹130
+                - paragraph [ref=e149]:
+                  - generic [ref=e150]: Marshmallow Cocoa
+                  - generic [ref=e151]: ₹150
+            - generic [ref=e152]:
+              - heading "Snacks & Cookies" [level=3] [ref=e153]
+              - paragraph [ref=e156]:
+                - generic [ref=e157]: Butter Cookie
+                - generic [ref=e158]: ₹50
+              - paragraph [ref=e159]:
+                - generic [ref=e160]: Choco Chip Cookie
+                - generic [ref=e161]: ₹70
+              - paragraph [ref=e162]:
+                - generic [ref=e163]: Today's Cake Slice
+                - generic [ref=e164]: ₹120
+              - paragraph [ref=e165]:
+                - generic [ref=e166]: Something savoury
+                - generic [ref=e167]: ₹100
+            - generic [ref=e168]:
+              - heading "Brewer's corner" [level=3] [ref=e169]
+              - paragraph [ref=e172]:
+                - generic [ref=e173]: Pour-over
+                - generic [ref=e174]: ₹160
+              - paragraph [ref=e175]:
+                - generic [ref=e176]: Siphon brew
+                - generic [ref=e177]: ₹180
+              - paragraph [ref=e178]:
+                - generic [ref=e179]: Moka pot coffee
+                - generic [ref=e180]: ₹150
+          - paragraph [ref=e181]: Prices are a guide. Ask us about today's beans and little extras.
+    - region [ref=e182]:
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - generic [ref=e186]: The ritual is part of the magic
+            - heading "Brewed your way." [level=2] [ref=e187]
+          - paragraph [ref=e188]: Different brews, different moods. We'll help you find your perfect cup.
+        - generic [ref=e189]:
+          - article [ref=e190]:
+            - heading "Espresso" [level=3] [ref=e194]
+            - paragraph [ref=e195]: Bold, balanced, and the start of something lovely.
+          - article [ref=e196]:
+            - heading "Siphon" [level=3] [ref=e200]
+            - paragraph [ref=e201]: A little theatre, a lot of clarity. Made slowly.
+          - article [ref=e202]:
+            - heading "Pour-over" [level=3] [ref=e206]
+            - paragraph [ref=e207]: Hand-poured for a clean cup that takes its time.
+          - article [ref=e208]:
+            - heading "Moka pot" [level=3] [ref=e212]
+            - paragraph [ref=e213]: Rich, cosy, stovetop comfort in every little cup.
+    - region [ref=e214]:
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - generic [ref=e218]: A peek inside our corner
+            - heading "Stay for a while." [level=2] [ref=e219]
+          - paragraph [ref=e220]: Brick, beans, and a favourite seat by the window. There's room for you here.
+        - generic [ref=e221]:
+          - 'button "Open image: a cosy corner of the cafe" [ref=e222]':
+            - img "Cosy cafe interior with warm wooden furniture" [ref=e223]
+            - text: +
+          - 'button "Open image: coffee being made" [ref=e224]':
+            - img "Barista preparing coffee at a cafe counter" [ref=e225]
+            - text: +
+          - 'button "Open image: coffee cups on a table" [ref=e226]':
+            - img "Coffee cups and brewing tools arranged on wood" [ref=e227]
+            - text: +
+          - 'button "Open image: cafe seating" [ref=e228]':
+            - img "Cafe seating with tables and warm interior details" [ref=e229]
+            - text: +
+          - 'button "Open image: coffee house interior" [ref=e230]':
+            - img "A welcoming coffee house with exposed brick and wood" [ref=e231]
+            - text: +
+          - 'button "Open image: a freshly brewed cup of coffee" [ref=e232]':
+            - img "Freshly brewed coffee ready to enjoy" [ref=e233]
+            - text: +
+    - region [ref=e234]:
+      - generic [ref=e235]:
+        - generic [ref=e236]: Come on over
+        - heading "Your table is waiting." [level=2] [ref=e237]
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - heading "Majestic Coffee House" [level=3] [ref=e240]
+            - generic [ref=e241]: A cosy corner in Valsad
+            - generic [ref=e242]: Shop No. 7, Pali Heights,Tithal Rd, Valsad, Gujarat 396001
+            - generic [ref=e251]:
+              - strong [ref=e252]: Hours
+              - text: Every day · 9:00 am – 10:00 pm (please confirm locally)
+            - generic [ref=e256]:
+              - text: Call or WhatsApp us
+              - strong [ref=e257]: +91 98765 43210
+              - text: (placeholder)
+            - generic [ref=e258]:
+              - link "Get directions" [ref=e259] [cursor=pointer]:
+                - /url: https://www.google.com/maps/search/?api=1&query=Majestic+Coffee+House%2C+Shop+No.+7%2C+Pali+Heights%2C+Tithal+Road%2C+Valsad%2C+Gujarat+396001
+                - text: Get directions
+                - generic [aria-hidden] [ref=e260]: ↗
+              - link "WhatsApp us" [ref=e261] [cursor=pointer]:
+                - /url: https://wa.me/919876543210?text=Hello%20Majestic%20Coffee%20House
+                - text: WhatsApp us
+                - generic [aria-hidden] [ref=e262]: ↗
+          - iframe [ref=e264]
+  - contentinfo [ref=e265]:
+    - generic [ref=e266]:
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - link "Majestic Coffee House home" [ref=e269] [cursor=pointer]:
+            - /url: "#home"
+            - generic [aria-hidden] [ref=e270]: M
+            - generic [ref=e271]:
+              - generic [ref=e272]: Majestic Coffee House
+              - generic [ref=e273]: Valsad · Since always
+          - paragraph [ref=e274]: A little coffee, a little comfort, and always a warm welcome. See you around the corner.
+        - generic [ref=e275]:
+          - heading "Find your way" [level=2] [ref=e276]
+          - generic [ref=e277]:
+            - link "Our story" [ref=e278] [cursor=pointer]:
+              - /url: "#about"
+            - link "The menu" [ref=e279] [cursor=pointer]:
+              - /url: "#menu"
+            - link "Gallery" [ref=e280] [cursor=pointer]:
+              - /url: "#gallery"
+            - link "Visit us" [ref=e281] [cursor=pointer]:
+              - /url: "#visit"
+        - generic [ref=e282]:
+          - heading "Say hello" [level=2] [ref=e283]
+          - link "Visit Instagram (profile link to be updated)" [ref=e284] [cursor=pointer]:
+            - /url: https://www.instagram.com/
+            - text: Instagram
+      - generic [ref=e289]:
+        - generic [ref=e290]: © 2026 Majestic Coffee House
+        - generic [ref=e291]: Made with warmth (and probably a latte).

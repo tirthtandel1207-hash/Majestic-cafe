@@ -1,0 +1,165 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "Majestic Coffee House home" [ref=f1e5] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=f1e6]: MAJESTIC
+        - generic [ref=f1e7]: COFFEE HOUSE
+      - navigation "Main navigation" [ref=f1e8]:
+        - link "Menu" [ref=f1e9] [cursor=pointer]:
+          - /url: "#the-coffee"
+        - link "Our Story" [ref=f1e10] [cursor=pointer]:
+          - /url: "#our-place"
+        - link "Visit Us" [ref=f1e11] [cursor=pointer]:
+          - /url: "#visit"
+      - generic [ref=f1e12]:
+        - button "Order Now" [disabled] [ref=f1e13]
+        - button "Cart, 0 items" [disabled] [ref=f1e14]:
+          - generic [aria-hidden] [ref=f1e19]: "0"
+      - generic [ref=f1e20]: Ordering is not available yet.
+  - region "A good cup. A little pause. A majestic day." [ref=f1e23]
+  - main [ref=f1e26]:
+    - region "Big on character. Easy to feel at home." [ref=f1e27]:
+      - separator [ref=f1e29]
+    - region "Find your coffee mood." [ref=f1e30]:
+      - group "Choose a menu" [ref=f1e31]:
+        - button "Menu 1" [pressed] [ref=f1e32] [cursor=pointer]
+        - button "Menu 2" [ref=f1e33] [cursor=pointer]
+      - region [ref=f1e34]:
+        - generic [ref=f1e35]:
+          - heading "Menu 1" [level=3] [ref=f1e36]
+          - paragraph [ref=f1e37]: MAJESTIC COFFEE HOUSE / MENU 01
+        - group "Menu 1 categories" [ref=f1e38]:
+          - button "Hot Coffee" [pressed] [ref=f1e39] [cursor=pointer]
+          - button "Iced Coffee" [ref=f1e40] [cursor=pointer]
+          - button "Manual Brew" [ref=f1e41] [cursor=pointer]
+          - button "Best with Coffee" [ref=f1e42] [cursor=pointer]
+          - button "Add-ons" [ref=f1e43] [cursor=pointer]
+        - region [ref=f1e44]:
+          - heading "HOT MAJESTIC COFFEE" [level=4] [ref=f1e45]
+          - list [ref=f1e46]:
+            - listitem [ref=f1e47]:
+              - generic [ref=f1e48]:
+                - generic [ref=f1e49]: Espresso
+                - generic [ref=f1e50]: 30 ml shot
+              - generic [ref=f1e51]: ₹50
+            - listitem [ref=f1e52]:
+              - generic [ref=f1e53]:
+                - generic [ref=f1e54]: Espresso Doppio
+                - generic [ref=f1e55]: 60 ml shot
+              - generic [ref=f1e56]: ₹80
+            - listitem [ref=f1e57]:
+              - generic [ref=f1e58]:
+                - generic [ref=f1e59]: Lungo
+                - generic [ref=f1e60]: Less concentrate · 90 ml shot
+              - generic [ref=f1e61]: ₹90
+            - listitem [ref=f1e62]:
+              - generic [ref=f1e63]:
+                - generic [ref=f1e64]: Americano
+                - generic [ref=f1e65]: Espresso · hot water
+              - generic [ref=f1e66]: ₹100
+            - listitem [ref=f1e67]:
+              - generic [ref=f1e68]:
+                - generic [ref=f1e69]: Romano
+                - generic [ref=f1e70]: Espresso · hot water · lemon
+              - generic [ref=f1e71]: ₹105
+            - listitem [ref=f1e72]:
+              - generic [ref=f1e73]:
+                - generic [ref=f1e74]: Red Eye
+                - generic [ref=f1e75]: Espresso · hot water · blend coffee
+              - generic [ref=f1e76]: ₹105
+            - listitem [ref=f1e77]:
+              - generic [ref=f1e78]:
+                - generic [ref=f1e79]: Macchiato
+                - generic [ref=f1e80]: Espresso · foam milk
+              - generic [ref=f1e81]: ₹105
+            - listitem [ref=f1e82]:
+              - generic [ref=f1e83]:
+                - generic [ref=f1e84]: Cappuccino
+                - generic [ref=f1e85]: Espresso · steam milk · foam milk
+              - generic [ref=f1e86]: ₹110
+            - listitem [ref=f1e87]:
+              - generic [ref=f1e88]:
+                - generic [ref=f1e89]: Flat White
+                - generic [ref=f1e90]: Espresso · steam milk
+              - generic [ref=f1e91]: ₹110
+            - listitem [ref=f1e92]:
+              - generic [ref=f1e93]:
+                - generic [ref=f1e94]: Moracchino
+                - generic [ref=f1e95]: Espresso · steam milk · foam milk · cocoa powder
+              - generic [ref=f1e96]: ₹120
+            - listitem [ref=f1e97]:
+              - generic [ref=f1e98]:
+                - generic [ref=f1e99]: Breve
+                - generic [ref=f1e100]: Espresso · steam milk · cream
+              - generic [ref=f1e101]: ₹120
+            - listitem [ref=f1e102]:
+              - generic [ref=f1e103]:
+                - generic [ref=f1e104]: Mocha
+                - generic [ref=f1e105]: Espresso · chocolate · steam milk · foam milk
+              - generic [ref=f1e106]: ₹130
+            - listitem [ref=f1e107]:
+              - generic [ref=f1e108]:
+                - generic [ref=f1e109]: Latte
+                - generic [ref=f1e110]: Espresso · steam milk · foam milk
+              - generic [ref=f1e111]: ₹130
+            - listitem [ref=f1e112]:
+              - generic [ref=f1e113]:
+                - generic [ref=f1e114]: Mocha Caramel
+                - generic [ref=f1e115]: Espresso · caramel · steam milk · foam milk
+              - generic [ref=f1e116]: ₹140
+            - listitem [ref=f1e117]:
+              - generic [ref=f1e118]:
+                - generic [ref=f1e119]: Café Con Miel
+                - generic [ref=f1e120]: Espresso · honey · steam milk · cinnamon
+              - generic [ref=f1e121]: ₹145
+            - listitem [ref=f1e122]:
+              - generic [ref=f1e123]:
+                - generic [ref=f1e124]: Pumpkin Spice
+                - generic [ref=f1e125]: Espresso · honey · steam milk · pumpkin spice
+              - generic [ref=f1e126]: ₹145
+            - listitem [ref=f1e127]:
+              - generic [ref=f1e128]:
+                - generic [ref=f1e129]: Mocha Breve
+                - generic [ref=f1e130]: Espresso · chocolate · steam milk · cream
+              - generic [ref=f1e131]: ₹150
+    - region "A little Paris. A lot of Valsad." [ref=f1e132]:
+      - generic [ref=f1e135]:
+        - generic [ref=f1e136]: WARM WOOD. OLD-WORLD WALLS. GOOD COMPANY.
+        - generic [ref=f1e137]: Inside MAJESTIC COFFEE HOUSE
+    - region "Find your favourite corner." [ref=f1e138]
+    - region "Not polished perfect. Perfectly Majestic." [ref=f1e140]
+    - complementary "An invitation to visit" [ref=f1e141]:
+      - generic [ref=f1e142]:
+        - heading "Bring a friend. Leave the rush outside." [level=2] [ref=f1e143]
+        - paragraph [ref=f1e144]: No grand occasion needed. Just a little time, a little company, and a coffee-house state of mind.
+    - region "Your next pause, right this way." [ref=f1e145]
+  - contentinfo [ref=f1e146]:
+    - generic [ref=f1e147]:
+      - generic [ref=f1e148]:
+        - paragraph [ref=f1e149]: Coffee. Company. Majestic.
+        - navigation "Footer navigation" [ref=f1e150]:
+          - link "Our place" [ref=f1e151] [cursor=pointer]:
+            - /url: "#our-place"
+          - link "The coffee" [ref=f1e152] [cursor=pointer]:
+            - /url: "#the-coffee"
+          - link "The atmosphere" [ref=f1e153] [cursor=pointer]:
+            - /url: "#atmosphere"
+          - link "Visit us" [ref=f1e154] [cursor=pointer]:
+            - /url: "#visit"
+          - link "Back to top" [ref=f1e155] [cursor=pointer]:
+            - /url: "#home"
+      - separator [ref=f1e156]
+      - generic [ref=f1e157]:
+        - paragraph [ref=f1e158]: MAJESTIC
+        - generic [ref=f1e159]:
+          - strong [ref=f1e160]: COFFEE HOUSE
+          - generic [ref=f1e161]: VALSAD, GUJARAT
+      - generic [ref=f1e162]:
+        - generic [ref=f1e163]: © 2026 Majestic Coffee House
+        - link "Instagram profile link to be updated" [ref=f1e164] [cursor=pointer]:
+          - /url: https://www.instagram.com/
+          - text: Instagram
+        - generic [ref=f1e169]: Made for a slower kind of day.

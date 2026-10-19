@@ -1,0 +1,67 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Majestic Coffee House home" [ref=e5] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e6]: MAJESTIC
+        - generic [ref=e7]: COFFEE HOUSE
+      - navigation "Main navigation" [ref=e8]:
+        - link "Menu" [ref=e9] [cursor=pointer]:
+          - /url: "#the-coffee"
+        - link "Our Story" [ref=e10] [cursor=pointer]:
+          - /url: "#our-place"
+        - link "Visit Us" [ref=e11] [cursor=pointer]:
+          - /url: "#visit"
+      - generic [ref=e12]:
+        - button "Order Now" [disabled] [ref=e13]
+        - button "Cart, 0 items" [disabled] [ref=e14]:
+          - generic [aria-hidden] [ref=e19]: "0"
+      - generic [ref=e20]: Ordering is not available yet.
+  - region [ref=e23]:
+    - generic [ref=e25]:
+      - paragraph [ref=e26]: YOUR LITTLE PAUSE IN VALSAD
+      - heading "A good cup. A little pause. A majestic day." [level=1] [ref=e27]: A good cup.A little pause.A majestic day.
+  - main [ref=e28]:
+    - region "Big on character. Easy to feel at home." [ref=e29]:
+      - separator [ref=e31]
+    - region "What’s your coffee mood?" [ref=e32]
+    - region "A little Paris. A lot of Valsad." [ref=e33]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: WARM WOOD. OLD-WORLD WALLS. GOOD COMPANY.
+        - generic [ref=e38]: Inside MAJESTIC COFFEE HOUSE
+    - region "Find your favourite corner." [ref=e39]
+    - region "Not polished perfect. Perfectly Majestic." [ref=e41]
+    - complementary "An invitation to visit" [ref=e42]:
+      - generic [ref=e43]:
+        - heading "Bring a friend. Leave the rush outside." [level=2] [ref=e44]
+        - paragraph [ref=e45]: No grand occasion needed. Just a little time, a little company, and a coffee-house state of mind.
+    - region "Your next pause, right this way." [ref=e46]
+  - contentinfo [ref=e47]:
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - paragraph [ref=e50]: Coffee. Company. Majestic.
+        - navigation "Footer navigation" [ref=e51]:
+          - link "Our place" [ref=e52] [cursor=pointer]:
+            - /url: "#our-place"
+          - link "The coffee" [ref=e53] [cursor=pointer]:
+            - /url: "#the-coffee"
+          - link "The atmosphere" [ref=e54] [cursor=pointer]:
+            - /url: "#atmosphere"
+          - link "Visit us" [ref=e55] [cursor=pointer]:
+            - /url: "#visit"
+          - link "Back to top" [ref=e56] [cursor=pointer]:
+            - /url: "#home"
+      - separator [ref=e57]
+      - generic [ref=e58]:
+        - paragraph [ref=e59]: MAJESTIC
+        - generic [ref=e60]:
+          - strong [ref=e61]: COFFEE HOUSE
+          - generic [ref=e62]: VALSAD, GUJARAT
+      - generic [ref=e63]:
+        - generic [ref=e64]: © 2026 Majestic Coffee House
+        - link "Instagram profile link to be updated" [ref=e65] [cursor=pointer]:
+          - /url: https://www.instagram.com/
+          - text: Instagram
+        - generic [ref=e70]: Made for a slower kind of day.

@@ -1,0 +1,108 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Majestic Coffee House home" [ref=e5] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e6]: MAJESTIC
+        - generic [ref=e7]: COFFEE HOUSE
+      - generic [ref=e12]:
+        - button "Cart, 0 items" [disabled] [ref=e14]:
+          - generic [aria-hidden] [ref=e19]: "0"
+        - button "Open navigation menu" [ref=e86] [cursor=pointer]
+      - generic [ref=e20]: Ordering is not available yet.
+  - region [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: YOUR LITTLE PAUSE IN VALSAD
+        - heading "A good cup. A little pause. A majestic day." [level=1] [ref=e75]: A good cup.A little pause.A majestic day.
+        - paragraph [ref=e76]: Step off Tithal Road and into a warmer rhythm. Coffee, conversation, and a corner to call your own.
+        - generic [ref=e77]:
+          - link "Come on in" [ref=e78] [cursor=pointer]:
+            - /url: "#the-coffee"
+          - link "Tithal Road, Valsad" [ref=e79] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Majestic+Coffee+House%2C+Pali+Heights%2C+Valsad%2C+Gujarat
+      - figure "A LITTLE CUP OF MAJESTIC" [ref=e80]:
+        - img "Majestic's mustard-yellow coffee mug on the café counter" [ref=e81]
+    - generic [ref=e83]:
+      - generic [ref=e84]: COFFEE / CONVERSATION / A CHANGE OF PACE
+      - link "Make yourself at home" [ref=e85] [cursor=pointer]:
+        - /url: "#our-place"
+  - main [ref=e27]:
+    - region [ref=e28]:
+      - generic [ref=e29]:
+        - complementary [ref=e87]:
+          - paragraph [ref=e88]: 01 / HELLO, NEIGHBOUR
+          - paragraph [ref=e89]: Pali Heights, Tithal Road.A little corner of Valsad.
+        - generic [ref=e90]:
+          - heading "Big on character. Easy to feel at home." [level=2] [ref=e91]: Big on character.Easy to feel at home.
+          - generic [ref=e92]:
+            - paragraph [ref=e93]: Welcome to MAJESTIC COFFEE HOUSE. A neighbourhood spot for catching up, slowing down, and letting a coffee break become the best part of your day.
+            - paragraph [ref=e94]: Warm wood meets black metal. Paris-inspired walls meet familiar company. Find a seat, bring a friend, and stay for a conversation.
+      - separator [ref=e30]
+    - region [ref=e31]:
+      - figure "THE HOUSE COLOUR. THE COFFEE MOOD. MAJESTIC / STILL LIFE" [ref=e95]:
+        - img "The signature yellow mug, caught in the café light" [ref=e96]
+        - generic [ref=e97]:
+          - generic [ref=e98]: THE HOUSE COLOUR. THE COFFEE MOOD.
+          - generic [ref=e99]: MAJESTIC / STILL LIFE
+      - generic [ref=e100]:
+        - paragraph [ref=e101]: 02 / LET’S TALK COFFEE
+        - heading "What’s your coffee mood?" [level=2] [ref=e102]: What’s yourcoffee mood?
+        - paragraph [ref=e103]: A few ways to think about your next cup. Start with what you love, then ask us what’s on at the counter.
+        - generic "Coffee inspiration" [ref=e104]:
+          - article [ref=e105]:
+            - generic [ref=e106]:
+              - heading "Short & bold" [level=3] [ref=e107]
+              - paragraph [ref=e108]: For the love of that full coffee character.
+            - generic [ref=e109]: THE INTENSE ONE
+          - article [ref=e110]:
+            - generic [ref=e111]:
+              - heading "Soft & mellow" [level=3] [ref=e112]
+              - paragraph [ref=e113]: When you’re in the mood for a gentler sip.
+            - generic [ref=e114]: THE COMFORT ONE
+          - article [ref=e115]:
+            - generic [ref=e116]:
+              - heading "Cool & easy" [level=3] [ref=e117]
+              - paragraph [ref=e118]: A little inspiration for a warmer day.
+            - generic [ref=e119]: THE LAID-BACK ONE
+        - paragraph [ref=e120]: Coffee inspiration, not a menu. Please ask in-house for current drinks and availability.
+    - region "A little Paris. A lot of Valsad." [ref=e32]:
+      - generic [ref=e35]:
+        - generic [ref=e36]: WARM WOOD. OLD-WORLD WALLS. GOOD COMPANY.
+        - generic [ref=e37]: Inside MAJESTIC COFFEE HOUSE
+    - region "Find your favourite corner." [ref=e38]
+    - region "Not polished perfect. Perfectly Majestic." [ref=e40]
+    - complementary "An invitation to visit" [ref=e41]:
+      - generic [ref=e42]:
+        - heading "Bring a friend. Leave the rush outside." [level=2] [ref=e43]
+        - paragraph [ref=e44]: No grand occasion needed. Just a little time, a little company, and a coffee-house state of mind.
+    - region "Your next pause, right this way." [ref=e45]
+  - contentinfo [ref=e46]:
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - paragraph [ref=e49]: Coffee. Company. Majestic.
+        - navigation "Footer navigation" [ref=e50]:
+          - link "Our place" [ref=e51] [cursor=pointer]:
+            - /url: "#our-place"
+          - link "The coffee" [ref=e52] [cursor=pointer]:
+            - /url: "#the-coffee"
+          - link "The atmosphere" [ref=e53] [cursor=pointer]:
+            - /url: "#atmosphere"
+          - link "Visit us" [ref=e54] [cursor=pointer]:
+            - /url: "#visit"
+          - link "Back to top" [ref=e55] [cursor=pointer]:
+            - /url: "#home"
+      - separator [ref=e56]
+      - generic [ref=e57]:
+        - paragraph [ref=e58]: MAJESTIC
+        - generic [ref=e59]:
+          - strong [ref=e60]: COFFEE HOUSE
+          - generic [ref=e61]: VALSAD, GUJARAT
+      - generic [ref=e62]:
+        - generic [ref=e63]: © 2026 Majestic Coffee House
+        - link "Instagram profile link to be updated" [ref=e64] [cursor=pointer]:
+          - /url: https://www.instagram.com/
+          - text: Instagram
+        - generic [ref=e69]: Made for a slower kind of day.
